@@ -34,7 +34,7 @@ export default function App() {
             <h1>Hello {user?.username}</h1>
             <button onClick={signOut}>Sign out</button>
 
-          {/* StorageBrowser Component */}
+          {/* StorageBrowser Component */}
           <h2>Your Files</h2>
           <StorageBrowser />
 
